@@ -8,7 +8,7 @@ int main(){
 
     for (int line = 1; line <= linesDemanded; line++) // Kitni lines print krni hai = linesDemanded
     { 
-        for (int star = 1; star <=linesDemanded; star++) // Har line me kitne stars hone chiye = linesDemanded
+        for (int star = 1; star <=linesDemanded; star++) // Har line me kitne char hone chiye = linesDemanded
         {
             cout << ++chr << " ";
         }
