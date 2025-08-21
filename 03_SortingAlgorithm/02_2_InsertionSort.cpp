@@ -1,4 +1,3 @@
-// Video Link : https://youtu.be/XBfH1Qy1JGY
 // Insertion sort : means divide the given array in two parts SORTED array part and UNSORTED array part 
 
 // Assume arr[0] is already sorted, So arr[0] will come under SORTED array part and other elements in UNSORTED array part
