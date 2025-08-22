@@ -20,10 +20,10 @@ void Merge(int* arr, int low, int mid, int high){
     int j = mid+1; // starting index of right side sub-array ---> index [mid of array]  + 1
 
     int tempArr[99];  // allocating large size array, assuming the input array will not be bigger than 99
-    int k = low; 
+    int k = low;
 
     
-    while (i <= mid && j<= high) // i will go from start-->to-->(mid of array) -AND- j will go from (mid of array)-->to-->last index
+    while (i <= mid && j<= high) // i will go from start --> to --> [mid of array] -AND- j will go from (mid of array)-->to-->last index
     {
         if (arr[i] < arr[j])
         {
@@ -71,7 +71,6 @@ int main(){
     int arr[] =  {10, 30, 99, 2, 44, 56, 20, 5, 3, 9, 7};
     int size = sizeof(arr)/sizeof(arr[0]);
     
-    printArray(arr, size);
     MergeSort(arr, 0, size-1);
     printArray(arr, size);
 
